@@ -91,4 +91,21 @@ def generate_launch_description():
             parameters=[tb3_param_dir],
             arguments=['-i', usb_port],
             output='screen'),
+
+        Node(
+            package='turtlebot3_flywheels_and_Temperature',
+            executable='flywheels_and_Temperature',
+            output='screen'
+        ),
+
+        Node(
+            package='turtlebot3_navigation',
+            executable='nav_controller',
+            name='nav_controller',
+            output='screen',
+            parameters=[{
+                'controller_frequency': 10.0,
+            }],
+            remappings=[('/cmd_vel', '/flywheel_cmd_vel')]
+        )
     ])
