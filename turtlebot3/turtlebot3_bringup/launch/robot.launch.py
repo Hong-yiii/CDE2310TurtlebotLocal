@@ -97,11 +97,11 @@ def generate_launch_description():
             arguments=['-i', usb_port],
             output='screen'),
 
-        # Node(
-        #     package='turtlebot3_flywheels_and_Temperature',
-        #     executable='flywheels_and_Temperature',
-        #     output='screen'
-        # ),
+        Node(
+            package='turtlebot3_flywheels_and_Temperature',
+            executable='flywheels_and_Temperature',
+            output='screen'
+        ),
 
         Node(
             package='nav2_controller',

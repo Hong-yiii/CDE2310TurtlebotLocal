@@ -16,6 +16,7 @@
   <author email="pyo@robotis.com">Pyo</author>
   <buildtool_depend>ament_cmake</buildtool_depend>
   <exec_depend>turtlebot3_bringup</exec_depend>
+  <exec_depend>turtlebot3_flywheels_and_temp</exec_depend>
   <exec_depend>turtlebot3_cartographer</exec_depend>
   <exec_depend>turtlebot3_description</exec_depend>
   <exec_depend>turtlebot3_example</exec_depend>
