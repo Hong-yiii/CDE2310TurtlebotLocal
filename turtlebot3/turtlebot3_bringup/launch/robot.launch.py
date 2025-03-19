@@ -58,6 +58,11 @@ def generate_launch_description():
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
 
+    params_file = os.path.join(
+        get_package_share_directory('turtlebot3_bringup'),  # Package name
+        'nav2_params.yaml'
+    )
+
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
@@ -103,7 +108,7 @@ def generate_launch_description():
             executable='controller_server',
             name='controller_server',
             output='screen',
-            parameters=['./../../navigation2/nav2_bringup/params/nav2_params.yaml']
+            parameters=[params_file]
         )
 
     ])
