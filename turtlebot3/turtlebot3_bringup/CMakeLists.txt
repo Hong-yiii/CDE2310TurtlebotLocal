@@ -24,6 +24,11 @@ install(
   DIRECTORY launch param script
   DESTINATION share/${PROJECT_NAME}
 )
+install(
+  FILES
+    nav2_params.yaml
+  DESTINATION share/${PROJECT_NAME}
+)
 
 ################################################################################
 # Macro for ament package
