@@ -60,7 +60,7 @@ def generate_launch_description():
 
     params_file = os.path.join(
         get_package_share_directory('turtlebot3_bringup'),  # Package name
-        'launch/nav2_params.yaml'
+        'config/nav2_params.yaml'
     )
 
     return LaunchDescription([
