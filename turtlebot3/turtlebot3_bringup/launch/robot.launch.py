@@ -99,13 +99,11 @@ def generate_launch_description():
         ),
 
         Node(
-            package='turtlebot3_navigation',
-            executable='nav_controller',
-            name='nav_controller',
+            package='nav2_controller',
+            executable='controller_server',
+            name='controller_server',
             output='screen',
-            parameters=[{
-                'controller_frequency': 10.0,
-            }],
-            remappings=[('/cmd_vel', '/flywheel_cmd_vel')]
+            parameters=['./../../navigation2/nav2_bringup/params/nav2_params.yaml']
         )
+
     ])
