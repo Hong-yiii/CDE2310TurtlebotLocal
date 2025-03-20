@@ -1,0 +1,1 @@
+/home/rex/CDE2310TurtlebotLocal/turtlebot3/build/my_new_node/ament_cmake_environment_hooks/local_setup.sh
