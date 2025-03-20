@@ -26,7 +26,7 @@ install(
 )
 install(
   FILES
-    launch/nav2_params.yaml
+    config/nav2_params.yaml
   DESTINATION share/${PROJECT_NAME}
 )
 
