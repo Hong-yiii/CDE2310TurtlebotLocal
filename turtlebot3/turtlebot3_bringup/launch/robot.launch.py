@@ -103,13 +103,24 @@ def generate_launch_description():
         #     output='screen'
         # ),
 
+        Node(
+            package='dwb_plugins',
+            executable='dwb_local_planner',
+            output='screen',
+            parameters=[params_file],
+            arguments=['--ros-args', '--log-level', 'debug']
+        ),
+
+
         # Controller Server as Lifecycle Node
         Node(
             package='nav2_controller',
             executable='controller_server',
             name='controller_server',
             output='screen',
-            parameters=[params_file],
+            parameters=[params_file, {
+                'FollowPath.critics': ['RotateToGoal', 'Oscillation', 'BaseObstacle', 'GoalAlign', 'PathAlign', 'PathDist', 'GoalDist']
+            }],
             emulate_tty=True,  # To allow colored output in terminal
             arguments=['--ros-args', '--log-level', 'info'],
             # THIS MAKES IT A LIFECYCLE NODE!
