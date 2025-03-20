@@ -149,8 +149,6 @@ controller_server:
       min_speed_xy: 0.0
       max_speed_xy: 0.26
       min_speed_theta: 0.0
-      # Add high threshold velocity for turtlebot 3 issue.
-      # https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues/75
       acc_lim_x: 2.5
       acc_lim_y: 0.0
       acc_lim_theta: 3.2
@@ -201,17 +199,6 @@ controller_server:
       GoalDist:
         plugin: "dwb_critics::GoalDistCritic"
         scale: 24.0
-
-      BaseObstacle.scale: 0.02
-      PathAlign.scale: 32.0
-      PathAlign.forward_point_distance: 0.1
-      GoalAlign.scale: 24.0
-      GoalAlign.forward_point_distance: 0.1
-      PathDist.scale: 32.0
-      GoalDist.scale: 24.0
-      RotateToGoal.scale: 32.0
-      RotateToGoal.slowing_factor: 5.0
-      RotateToGoal.lookahead_time: -1.0
 
 local_costmap:
   local_costmap:
