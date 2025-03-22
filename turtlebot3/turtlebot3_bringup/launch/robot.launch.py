@@ -353,40 +353,4 @@ def generate_launch_description():
         #     executable='flywheels_and_Temperature',
         #     output='screen'
         # ),
-
-        # Controller Server as Lifecycle Node
-        '''
-        Node(
-            package='nav2_controller',
-            executable='controller_server',
-            name='controller_server',
-            output='screen',
-            parameters=[params_file],
-            emulate_tty=True,  # To allow colored output in terminal
-            arguments=['--ros-args', '--log-level', 'info'],
-            # THIS MAKES IT A LIFECYCLE NODE!
-            on_exit=[] 
-        ),
-
-        # Lifecycle Manager (Responsible for State Transitions)
-        Node(
-            package='nav2_lifecycle_manager',
-            executable='lifecycle_manager',
-            name='lifecycle_manager_navigation',
-            output='screen',
-            parameters=[{
-                'use_sim_time': True,
-                'autostart': True,
-                'node_names': [
-                    'controller_server',
-                    'planner_server',
-                    'behavior_server',
-                    'bt_navigator',
-                    'amcl',
-                    'map_server'
-                ]
-            }]
-        ),'
-        '''
-
     ])
