@@ -63,6 +63,8 @@ def generate_launch_description():
         'config/nav2_params.yaml'
     )
 
+    print(get_package_share_directory('turtlebot3_bringup'))
+
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
