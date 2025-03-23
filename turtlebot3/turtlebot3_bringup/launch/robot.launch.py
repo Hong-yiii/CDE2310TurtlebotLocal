@@ -49,7 +49,6 @@ def generate_nav2_launch():
     lifecycle_nodes = ['controller_server',
                        'smoother_server',
                        'behavior_server',
-                       'bt_navigator',
                        'waypoint_follower',
                        'velocity_smoother']
 
@@ -146,16 +145,6 @@ def generate_nav2_launch():
                 arguments=['--ros-args', '--log-level', log_level],
                 remappings=remappings),
             Node(
-                package='nav2_bt_navigator',
-                executable='bt_navigator',
-                name='bt_navigator',
-                output='screen',
-                respawn=use_respawn,
-                respawn_delay=2.0,
-                parameters=[configured_params],
-                arguments=['--ros-args', '--log-level', log_level],
-                remappings=remappings),
-            Node(
                 package='nav2_waypoint_follower',
                 executable='waypoint_follower',
                 name='waypoint_follower',
@@ -208,12 +197,6 @@ def generate_nav2_launch():
                 package='nav2_behaviors',
                 plugin='behavior_server::BehaviorServer',
                 name='behavior_server',
-                parameters=[configured_params],
-                remappings=remappings),
-            ComposableNode(
-                package='nav2_bt_navigator',
-                plugin='nav2_bt_navigator::BtNavigator',
-                name='bt_navigator',
                 parameters=[configured_params],
                 remappings=remappings),
             ComposableNode(
