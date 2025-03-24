@@ -165,15 +165,6 @@ def generate_nav2_launch():
                 arguments=['--ros-args', '--log-level', log_level],
                 remappings=remappings +
                         [('cmd_vel', 'cmd_vel_nav'), ('cmd_vel_smoothed', 'cmd_vel')]),
-            Node(
-                package='nav2_lifecycle_manager',
-                executable='lifecycle_manager',
-                name='lifecycle_manager_navigation',
-                output='screen',
-                arguments=['--ros-args', '--log-level', log_level],
-                parameters=[{'use_sim_time': use_sim_time},
-                            {'autostart': autostart},
-                            {'node_names': lifecycle_nodes}]),
         ]
     )
 
@@ -212,13 +203,6 @@ def generate_nav2_launch():
                 parameters=[configured_params],
                 remappings=remappings +
                            [('cmd_vel', 'cmd_vel_nav'), ('cmd_vel_smoothed', 'cmd_vel')]),
-            ComposableNode(
-                package='nav2_lifecycle_manager',
-                plugin='nav2_lifecycle_manager::LifecycleManager',
-                name='lifecycle_manager_navigation',
-                parameters=[{'use_sim_time': use_sim_time,
-                             'autostart': autostart,
-                             'node_names': lifecycle_nodes}]),
         ],
     )
 
