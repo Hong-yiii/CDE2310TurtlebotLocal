@@ -1,0 +1,1 @@
+/home/ubuntu/turtlebot3_ws/src/build/dwb_msgs/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c

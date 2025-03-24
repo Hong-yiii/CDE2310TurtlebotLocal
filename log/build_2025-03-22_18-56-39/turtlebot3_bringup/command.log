@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup': /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup -- -j4 -l4
+Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup' returned '0': /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup -- -j4 -l4
+Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup': /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup
+Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup' returned '0': /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup

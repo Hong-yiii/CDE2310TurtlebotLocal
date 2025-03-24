@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs': /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs
+Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs' returned '0': /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs
+Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs': /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs -- -j4 -l4
+Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs -- -j4 -l4
+Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs': /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs
+Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs' returned '0': /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs

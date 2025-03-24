@@ -1,0 +1,1 @@
+/home/ubuntu/turtlebot3_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/msg/CriticScore.msg

@@ -1,0 +1,169 @@
+[0.143s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_util': /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav2_util
+[0.480s] -- The C compiler identification is GNU 11.4.0
+[0.837s] -- The CXX compiler identification is GNU 11.4.0
+[0.871s] -- Detecting C compiler ABI info
+[1.288s] -- Detecting C compiler ABI info - done
+[1.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.316s] -- Detecting C compile features
+[1.317s] -- Detecting C compile features - done
+[1.330s] -- Detecting CXX compiler ABI info
+[1.771s] -- Detecting CXX compiler ABI info - done
+[1.799s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.801s] -- Detecting CXX compile features
+[1.802s] -- Detecting CXX compile features - done
+[1.847s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.089s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.549s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.046s] -- Found nav2_common: 1.1.18 (/home/ubuntu/turtlebot3_ws/install/nav2_common/share/nav2_common/cmake)
+[4.086s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[4.547s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.629s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.729s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.868s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.892s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.772s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.818s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.554s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.843s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.473s] -- Looking for pthread.h
+[8.852s] -- Looking for pthread.h - found
+[8.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.240s] -- Found Threads: TRUE  
+[9.923s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[10.191s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[10.200s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.201s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.257s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[10.386s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[10.587s] -- Found bondcpp: 4.1.2 (/opt/ros/humble/share/bondcpp/cmake)
+[10.851s] -- Setting build type to Release as none was specified.
+[11.158s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[11.226s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.270s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[11.322s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[11.397s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.579s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.603s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.608s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.609s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.610s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[11.778s] -- Found PythonExtra: .so  
+[14.400s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.877s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.954s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.958s] -- Configured cppcheck include dirs: /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_util/include
+[14.961s] -- Configured cppcheck exclude dirs and/or files: 
+[15.036s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.038s] -- Configured cpplint exclude dirs and/or files: 
+[15.087s] -- Added test 'lint_cmake' to check CMake code style
+[15.170s] -- Added test 'uncrustify' to check C / C++ code style
+[15.173s] -- Configured uncrustify additional arguments: 
+[15.185s] -- Added test 'xmllint' to check XML markup files
+[15.313s] -- Configuring done
+[16.124s] -- Generating done
+[16.448s] -- Build files have been written to: /home/ubuntu/turtlebot3_ws/src/build/nav2_util
+[16.708s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_util' returned '0': /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav2_util
+[16.712s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_util': /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/src/build/nav2_util -- -j4 -l4
+[17.564s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[17.642s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[17.752s] [  7%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[17.795s] [ 10%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[38.396s] [ 12%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[38.876s] [ 12%] Built target gtest_main
+[64.695s] [ 15%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[67.303s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[89.562s] [ 20%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[91.134s] [ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[91.329s] [ 22%] Built target gtest
+[108.625s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[127.445s] [ 27%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[143.676s] [ 30%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[197.239s] [ 32%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[217.403s] [ 35%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[218.520s] [ 35%] Built target nav2_util_core
+[218.612s] [ 37%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[218.620s] [ 40%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[218.622s] [ 42%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[218.628s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[227.481s] [ 47%] [32m[1mLinking CXX executable test_execution_timer[0m
+[227.934s] [ 47%] Built target test_execution_timer
+[228.051s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[240.538s] [ 52%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[240.655s] [ 55%] [32m[1mLinking CXX executable test_string_utils[0m
+[241.689s] [ 55%] Built target lifecycle_bringup
+[241.804s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[241.821s] [ 57%] Built target test_string_utils
+[241.928s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[254.603s] [ 62%] [32m[1mLinking CXX executable test_node_utils[0m
+[255.907s] [ 62%] Built target test_node_utils
+[256.031s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[272.719s] [ 67%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[273.954s] [ 67%] Built target test_lifecycle_utils
+[274.073s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[286.316s] [ 72%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[287.656s] [ 72%] Built target test_lifecycle_node
+[287.799s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[304.503s] [ 77%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[305.947s] [ 77%] Built target test_lifecycle_cli_node
+[306.078s] [ 80%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[311.472s] [ 82%] [32m[1mLinking CXX executable test_service_client[0m
+[312.876s] [ 82%] Built target test_service_client
+[313.009s] [ 85%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[316.387s] [ 87%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[317.196s] [ 87%] Built target test_geometry_utils
+[317.321s] [ 90%] [32mBuilding CXX object test/CMakeFiles/test_validation_messages.dir/test_validation_messages.cpp.o[0m
+[331.732s] [ 92%] [32m[1mLinking CXX executable test_validation_messages[0m
+[332.608s] [ 92%] Built target test_validation_messages
+[341.695s] [ 95%] [32m[1mLinking CXX executable test_robot_utils[0m
+[342.845s] [ 95%] Built target test_robot_utils
+[348.229s] [ 97%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[349.140s] [ 97%] Built target test_odometry_utils
+[355.946s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[357.270s] [100%] Built target test_actions
+[357.314s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_util' returned '0': /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/src/build/nav2_util -- -j4 -l4
+[357.332s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_util': /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/src/build/nav2_util
+[357.354s] -- Install configuration: "Release"
+[357.359s] -- Execute custom install script
+[357.362s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib/libnav2_util_core.so
+[357.398s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[357.433s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[357.466s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/costmap.hpp
+[357.499s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/execution_timer.hpp
+[357.531s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[357.564s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[357.596s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[357.627s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[357.659s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/line_iterator.hpp
+[357.691s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/node_thread.hpp
+[357.723s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/node_utils.hpp
+[357.757s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[357.789s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[357.820s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/robot_utils.hpp
+[357.854s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/service_client.hpp
+[357.886s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[357.917s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/string_utils.hpp
+[357.949s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/include//nav2_util/validate_messages.hpp
+[357.984s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/environment/library_path.sh
+[358.017s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[358.050s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[358.083s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[358.117s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[358.152s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[358.186s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/environment/path.sh
+[358.218s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/environment/path.dsv
+[358.251s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/local_setup.bash
+[358.284s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/local_setup.sh
+[358.319s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/local_setup.zsh
+[358.352s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/local_setup.dsv
+[358.384s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/package.dsv
+[358.417s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[358.452s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[358.483s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[358.516s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[358.547s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[358.579s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[358.611s] -- Symlinking: /home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/package.xml
+[358.655s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_util' returned '0': /usr/bin/cmake --install /home/ubuntu/turtlebot3_ws/src/build/nav2_util

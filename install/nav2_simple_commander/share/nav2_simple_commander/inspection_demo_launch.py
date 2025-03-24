@@ -1,0 +1,1 @@
+/home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/inspection_demo_launch.py

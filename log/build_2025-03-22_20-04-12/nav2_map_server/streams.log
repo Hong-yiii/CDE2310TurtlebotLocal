@@ -1,0 +1,70 @@
+[0.122s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav2_map_server
+[0.476s] -- The C compiler identification is GNU 11.4.0
+[0.808s] -- The CXX compiler identification is GNU 11.4.0
+[0.839s] -- Detecting C compiler ABI info
+[1.238s] -- Detecting C compiler ABI info - done
+[1.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.268s] -- Detecting C compile features
+[1.269s] -- Detecting C compile features - done
+[1.282s] -- Detecting CXX compiler ABI info
+[1.753s] -- Detecting CXX compiler ABI info - done
+[1.784s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.785s] -- Detecting CXX compile features
+[1.788s] -- Detecting CXX compile features - done
+[1.837s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.040s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.944s] -- Found nav2_common: 1.1.18 (/home/ubuntu/turtlebot3_ws/install/nav2_common/share/nav2_common/cmake)
+[3.981s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[4.514s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.595s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.692s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.969s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.454s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.497s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.179s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.441s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.875s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.007s] -- Looking for pthread.h
+[7.384s] -- Looking for pthread.h - found
+[7.386s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.807s] -- Found Threads: TRUE  
+[8.207s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[8.397s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[8.706s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.913s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[9.211s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[9.307s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[9.323s] -- Found nav2_util: 1.1.18 (/home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/cmake)
+[9.949s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.955s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.956s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.198s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[10.199s] -- Setting build type to Release as none was specified.
+[10.910s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.157s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.195s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.236s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.321s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.325s] -- Configured cppcheck include dirs: /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_map_server/include
+[12.326s] -- Configured cppcheck exclude dirs and/or files: 
+[12.364s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.365s] -- Configured cpplint exclude dirs and/or files: 
+[12.373s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.385s] -- Added test 'lint_cmake' to check CMake code style
+[12.394s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.432s] -- Added test 'uncrustify' to check C / C++ code style
+[12.433s] -- Configured uncrustify additional arguments: 
+[12.441s] -- Added test 'xmllint' to check XML markup files
+[12.472s] -- Configuring done
+[16.873s] -- Generating done
+[17.519s] -- Build files have been written to: /home/ubuntu/turtlebot3_ws/src/build/nav2_map_server
+[17.693s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav2_map_server
+[17.695s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/src/build/nav2_map_server -- -j4 -l4
+[18.514s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[18.531s] [  5%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[18.594s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[39.716s] [ 11%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[40.184s] [ 11%] Built target gtest_main

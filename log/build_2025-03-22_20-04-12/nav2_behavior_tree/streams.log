@@ -1,0 +1,64 @@
+[0.101s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav2_behavior_tree
+[0.467s] -- The CXX compiler identification is GNU 11.4.0
+[0.504s] -- Detecting CXX compiler ABI info
+[0.985s] -- Detecting CXX compiler ABI info - done
+[1.017s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.025s] -- Detecting CXX compile features
+[1.028s] -- Detecting CXX compile features - done
+[1.077s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.243s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.702s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.316s] -- Found nav2_common: 1.1.18 (/home/ubuntu/turtlebot3_ws/install/nav2_common/share/nav2_common/cmake)
+[3.370s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.919s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.999s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.095s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.887s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.934s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.789s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.061s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.496s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.643s] -- Looking for C++ include pthread.h
+[7.044s] -- Looking for C++ include pthread.h - found
+[7.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.482s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.487s] -- Found Threads: TRUE  
+[7.950s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[8.255s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[8.435s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[8.534s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.671s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[8.946s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.516s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[9.751s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.756s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.757s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.800s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[9.857s] -- Found nav2_util: 1.1.18 (/home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/cmake)
+[10.107s] -- Setting build type to Release as none was specified.
+[21.961s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[25.679s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[26.524s] -- The C compiler identification is GNU 11.4.0
+[26.685s] -- Detecting C compiler ABI info
+[27.906s] -- Detecting C compiler ABI info - done
+[28.053s] -- Check for working C compiler: /usr/bin/cc - skipped
+[28.066s] -- Detecting C compile features
+[28.068s] -- Detecting C compile features - done
+[48.238s] -- Added test 'copyright' to check source files copyright and LICENSE
+[48.533s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[48.635s] -- Configured cppcheck include dirs: /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_behavior_tree/include
+[48.635s] -- Configured cppcheck exclude dirs and/or files: 
+[48.897s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[48.898s] -- Configured cpplint exclude dirs and/or files: 
+[48.997s] -- Added test 'lint_cmake' to check CMake code style
+[49.306s] -- Added test 'uncrustify' to check C / C++ code style
+[49.306s] -- Configured uncrustify additional arguments: 
+[49.347s] -- Added test 'xmllint' to check XML markup files
+[49.424s] -- Configuring done
+[78.007s] -- Generating done
+[81.455s] -- Build files have been written to: /home/ubuntu/turtlebot3_ws/src/build/nav2_behavior_tree
+[81.722s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav2_behavior_tree
+[81.758s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/src/build/nav2_behavior_tree -- -j4 -l4
+[82.596s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_behavior_tree.dir/src/behavior_tree_engine.cpp.o[0m

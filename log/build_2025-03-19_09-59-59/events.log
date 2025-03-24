@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.001185] (-) JobUnselected: {'identifier': 'amg8833_sensor'}
+[0.001397] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.001662] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001809] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001896] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001972] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.002045] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.002117] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.002188] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.002261] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.002333] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.002404] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.002475] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.002545] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.002616] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.002687] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.002759] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.002830] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.002900] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.002974] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.003044] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.003114] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.003183] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.003252] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.003322] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.003392] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.003462] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.003533] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.003646] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.003732] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.003803] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.003873] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.003943] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.004013] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.004082] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.004151] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.004220] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.004290] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.004360] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.004430] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.004499] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004569] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.004638] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.004707] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.004777] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.004846] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.004915] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.004994] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('turtlebot3_description', '/home/ubuntu/turtlebot3_ws/src/install/turtlebot3_description'), ('turtlebot3_node', '/home/ubuntu/turtlebot3_ws/src/install/turtlebot3_node')])}
+[0.005093] (turtlebot3_bringup) JobStarted: {'identifier': 'turtlebot3_bringup'}
+[0.051076] (turtlebot3_bringup) JobProgress: {'identifier': 'turtlebot3_bringup', 'progress': 'cmake'}
+[0.053551] (turtlebot3_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_bringup', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup'], 'cwd': '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.153.128 49724 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/turtlebot3_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.23'), ('COLCON_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '15'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/turtlebot3_ws/install/amg8833_sensor:/home/ubuntu/install/turtlebot3:/home/ubuntu/install/turtlebot3_teleop:/home/ubuntu/install/turtlebot3_bringup:/home/ubuntu/install/turtlebot3_node:/home/ubuntu/install/turtlebot3_example:/home/ubuntu/install/turtlebot3_description:/home/ubuntu/install/ld08_driver:/home/ubuntu/install/amg8833_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('SSH_CONNECTION', '192.168.153.128 49724 192.168.153.194 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/ubuntu/build/turtlebot3_teleop:/home/ubuntu/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/build/turtlebot3_example:/home/ubuntu/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/turtlebot3_ws/install/amg8833_sensor:/home/ubuntu/install/turtlebot3:/home/ubuntu/install/turtlebot3_teleop:/home/ubuntu/install/turtlebot3_bringup:/home/ubuntu/install/turtlebot3_node:/home/ubuntu/install/turtlebot3_example:/home/ubuntu/install/turtlebot3_description:/home/ubuntu/install/ld08_driver:/home/ubuntu/install/amg8833_sensor:/opt/ros/humble')]), 'shell': False}
+[0.097723] (-) TimerEvent: {}
+[0.198442] (-) TimerEvent: {}
+[0.299157] (-) TimerEvent: {}
+[0.315976] (turtlebot3_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399389] (-) TimerEvent: {}
+[0.500235] (-) TimerEvent: {}
+[0.561977] (turtlebot3_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.593532] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600386] (-) TimerEvent: {}
+[0.701079] (-) TimerEvent: {}
+[0.801842] (-) TimerEvent: {}
+[0.894546] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.901978] (-) TimerEvent: {}
+[0.922114] (turtlebot3_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.922879] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.924253] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.934779] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.002218] (-) TimerEvent: {}
+[1.103054] (-) TimerEvent: {}
+[1.203860] (-) TimerEvent: {}
+[1.268079] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.293527] (turtlebot3_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.294452] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.296057] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.303988] (-) TimerEvent: {}
+[1.335645] (turtlebot3_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.404166] (-) TimerEvent: {}
+[1.504823] (-) TimerEvent: {}
+[1.605486] (-) TimerEvent: {}
+[1.706144] (-) TimerEvent: {}
+[1.806760] (-) TimerEvent: {}
+[1.907355] (-) TimerEvent: {}
+[2.007998] (-) TimerEvent: {}
+[2.105113] (turtlebot3_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.108166] (-) TimerEvent: {}
+[2.208794] (-) TimerEvent: {}
+[2.309414] (-) TimerEvent: {}
+[2.410041] (-) TimerEvent: {}
+[2.510652] (-) TimerEvent: {}
+[2.611254] (-) TimerEvent: {}
+[2.711903] (-) TimerEvent: {}
+[2.812516] (-) TimerEvent: {}
+[2.913106] (-) TimerEvent: {}
+[3.013696] (-) TimerEvent: {}
+[3.106095] (turtlebot3_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.113859] (-) TimerEvent: {}
+[3.123666] (turtlebot3_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[3.131300] (turtlebot3_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup\n'}
+[3.143569] (turtlebot3_bringup) CommandEnded: {'returncode': 0}
+[3.145156] (turtlebot3_bringup) JobProgress: {'identifier': 'turtlebot3_bringup', 'progress': 'build'}
+[3.147283] (turtlebot3_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.153.128 49724 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/turtlebot3_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.23'), ('COLCON_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '15'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/turtlebot3_ws/install/amg8833_sensor:/home/ubuntu/install/turtlebot3:/home/ubuntu/install/turtlebot3_teleop:/home/ubuntu/install/turtlebot3_bringup:/home/ubuntu/install/turtlebot3_node:/home/ubuntu/install/turtlebot3_example:/home/ubuntu/install/turtlebot3_description:/home/ubuntu/install/ld08_driver:/home/ubuntu/install/amg8833_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('SSH_CONNECTION', '192.168.153.128 49724 192.168.153.194 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/ubuntu/build/turtlebot3_teleop:/home/ubuntu/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/build/turtlebot3_example:/home/ubuntu/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/turtlebot3_ws/install/amg8833_sensor:/home/ubuntu/install/turtlebot3:/home/ubuntu/install/turtlebot3_teleop:/home/ubuntu/install/turtlebot3_bringup:/home/ubuntu/install/turtlebot3_node:/home/ubuntu/install/turtlebot3_example:/home/ubuntu/install/turtlebot3_description:/home/ubuntu/install/ld08_driver:/home/ubuntu/install/amg8833_sensor:/opt/ros/humble')]), 'shell': False}
+[3.214075] (-) TimerEvent: {}
+[3.292145] (turtlebot3_bringup) CommandEnded: {'returncode': 0}
+[3.294034] (turtlebot3_bringup) JobProgress: {'identifier': 'turtlebot3_bringup', 'progress': 'install'}
+[3.314256] (-) TimerEvent: {}
+[3.329394] (turtlebot3_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup'], 'cwd': '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.153.128 49724 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/turtlebot3_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_TERMINAL_VERSION', '3.4.23'), ('COLCON_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '15'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '41'), ('AMENT_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/turtlebot3_ws/install/amg8833_sensor:/home/ubuntu/install/turtlebot3:/home/ubuntu/install/turtlebot3_teleop:/home/ubuntu/install/turtlebot3_bringup:/home/ubuntu/install/turtlebot3_node:/home/ubuntu/install/turtlebot3_example:/home/ubuntu/install/turtlebot3_description:/home/ubuntu/install/ld08_driver:/home/ubuntu/install/amg8833_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_TERMINAL', 'iTerm2'), ('PWD', '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('SSH_CONNECTION', '192.168.153.128 49724 192.168.153.194 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/ubuntu/build/turtlebot3_teleop:/home/ubuntu/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/build/turtlebot3_example:/home/ubuntu/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/turtlebot3_ws/install/amg8833_sensor:/home/ubuntu/install/turtlebot3:/home/ubuntu/install/turtlebot3_teleop:/home/ubuntu/install/turtlebot3_bringup:/home/ubuntu/install/turtlebot3_node:/home/ubuntu/install/turtlebot3_example:/home/ubuntu/install/turtlebot3_description:/home/ubuntu/install/ld08_driver:/home/ubuntu/install/amg8833_sensor:/opt/ros/humble')]), 'shell': False}
+[3.360265] (turtlebot3_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.360856] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch\n'}
+[3.361405] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py\n'}
+[3.362604] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/nav2_params.yaml\n'}
+[3.363630] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py\n'}
+[3.364634] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py\n'}
+[3.365550] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param\n'}
+[3.366144] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml\n'}
+[3.367168] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml\n'}
+[3.368462] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml\n'}
+[3.369346] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/script\n'}
+[3.369954] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules\n'}
+[3.370937] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules\n'}
+[3.372164] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/nav2_params.yaml\n'}
+[3.373860] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup\n'}
+[3.375491] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup\n'}
+[3.377045] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh\n'}
+[3.378172] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv\n'}
+[3.379358] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh\n'}
+[3.380502] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv\n'}
+[3.381601] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash\n'}
+[3.382702] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh\n'}
+[3.383880] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh\n'}
+[3.385017] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv\n'}
+[3.386157] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv\n'}
+[3.387569] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup\n'}
+[3.389136] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake\n'}
+[3.390139] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake\n'}
+[3.391291] (turtlebot3_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml\n'}
+[3.396710] (turtlebot3_bringup) CommandEnded: {'returncode': 0}
+[3.414880] (-) TimerEvent: {}
+[3.466193] (turtlebot3_bringup) JobEnded: {'identifier': 'turtlebot3_bringup', 'rc': 0}
+[3.469145] (-) EventReactorShutdown: {}

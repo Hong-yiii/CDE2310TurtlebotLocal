@@ -1,0 +1,1 @@
+/home/ubuntu/turtlebot3_ws/src/build/nav2_util/ament_cmake_environment_hooks/local_setup.sh

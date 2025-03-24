@@ -1,0 +1,42 @@
+[4.831s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/build --no-deps symlink_data
+[6.611s] running develop
+[7.927s] running egg_info
+[7.929s] creating nav2_simple_commander.egg-info
+[7.931s] writing nav2_simple_commander.egg-info/PKG-INFO
+[7.933s] writing dependency_links to nav2_simple_commander.egg-info/dependency_links.txt
+[7.935s] writing entry points to nav2_simple_commander.egg-info/entry_points.txt
+[7.937s] writing requirements to nav2_simple_commander.egg-info/requires.txt
+[7.939s] writing top-level names to nav2_simple_commander.egg-info/top_level.txt
+[7.941s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[7.954s] reading manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[7.960s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[7.972s] running build_ext
+[7.974s] Creating /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+[7.980s] Installing demo_inspection script to /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[7.983s] Installing demo_picking script to /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[7.985s] Installing demo_recoveries script to /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[7.987s] Installing demo_security script to /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[7.989s] Installing example_assisted_teleop script to /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[7.992s] Installing example_follow_path script to /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[7.994s] Installing example_nav_through_poses script to /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[7.997s] Installing example_nav_to_pose script to /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[7.999s] Installing example_waypoint_follower script to /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[8.002s] 
+[8.003s] Installed /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander
+[8.004s] running symlink_data
+[8.006s] creating /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/ament_index
+[8.007s] creating /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/ament_index/resource_index
+[8.008s] creating /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[8.010s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/resource/nav2_simple_commander -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[8.012s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/package.xml -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.014s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/nav_through_poses_example_launch.py -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.016s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/recoveries_example_launch.py -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.017s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/security_demo_launch.py -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.019s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/nav_to_pose_example_launch.py -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.021s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/picking_demo_launch.py -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.023s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/follow_path_example_launch.py -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.025s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/warehouse.world -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.027s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/assisted_teleop_example_launch.py -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.029s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/waypoint_follower_example_launch.py -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.031s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/launch/inspection_demo_launch.py -> /home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[8.240s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander' returned '0': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/turtlebot3_ws/src/install/nav2_simple_commander/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/turtlebot3_ws/src/build/nav2_simple_commander/build --no-deps symlink_data

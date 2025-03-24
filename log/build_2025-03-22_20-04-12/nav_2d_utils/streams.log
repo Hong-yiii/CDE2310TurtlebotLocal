@@ -1,0 +1,70 @@
+[0.106s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib:/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav_2d_utils
+[0.446s] -- The C compiler identification is GNU 11.4.0
+[0.753s] -- The CXX compiler identification is GNU 11.4.0
+[0.787s] -- Detecting C compiler ABI info
+[1.195s] -- Detecting C compiler ABI info - done
+[1.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.224s] -- Detecting C compile features
+[1.226s] -- Detecting C compile features - done
+[1.239s] -- Detecting CXX compiler ABI info
+[1.696s] -- Detecting CXX compiler ABI info - done
+[1.726s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.727s] -- Detecting CXX compile features
+[1.729s] -- Detecting CXX compile features - done
+[1.776s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.969s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.393s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.916s] -- Found nav2_common: 1.1.18 (/home/ubuntu/turtlebot3_ws/install/nav2_common/share/nav2_common/cmake)
+[3.954s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.456s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.540s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.638s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.211s] -- Found nav_2d_msgs: 1.1.18 (/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[5.318s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.422s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[5.893s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.940s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.647s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.914s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.520s] -- Looking for pthread.h
+[7.918s] -- Looking for pthread.h - found
+[7.920s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.281s] -- Found Threads: TRUE  
+[8.608s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[8.783s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[9.057s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.064s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.066s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.800s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[9.899s] -- Found nav2_util: 1.1.18 (/home/ubuntu/turtlebot3_ws/src/install/nav2_util/share/nav2_util/cmake)
+[10.330s] -- Setting build type to Release as none was specified.
+[10.712s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.613s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.684s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.687s] -- Configured cppcheck include dirs: /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include
+[11.687s] -- Configured cppcheck exclude dirs and/or files: 
+[11.703s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.703s] -- Configured cpplint exclude dirs and/or files: 
+[11.712s] -- Added test 'lint_cmake' to check CMake code style
+[11.729s] -- Added test 'uncrustify' to check C / C++ code style
+[11.729s] -- Configured uncrustify additional arguments: 
+[11.734s] -- Added test 'xmllint' to check XML markup files
+[11.763s] -- Configuring done
+[12.793s] -- Generating done
+[12.886s] -- Build files have been written to: /home/ubuntu/turtlebot3_ws/src/build/nav_2d_utils
+[12.973s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib:/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/turtlebot3_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot3_ws/src/install/nav_2d_utils
+[12.976s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util:/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/turtlebot3_ws/src/install/nav2_util/lib:/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/turtlebot3_ws/src/build/nav_2d_utils -- -j4 -l4
+[13.314s] [  6%] [32mBuilding CXX object CMakeFiles/conversions.dir/src/conversions.cpp.o[0m
+[13.349s] [ 12%] [32mBuilding CXX object CMakeFiles/path_ops.dir/src/path_ops.cpp.o[0m
+[13.367s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.424s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[30.034s] [ 31%] [32m[1mLinking CXX shared library libpath_ops.so[0m
+[35.642s] [ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[36.389s] [ 37%] Built target gtest_main
+[54.213s] [ 37%] Built target path_ops
+[62.573s] [ 43%] [32m[1mLinking CXX shared library libconversions.so[0m
+[64.657s] [ 43%] Built target conversions

@@ -1,0 +1,1 @@
+/home/ubuntu/turtlebot3_ws/src/build/nav_2d_msgs/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__type_support.h
