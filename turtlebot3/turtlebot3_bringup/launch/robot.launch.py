@@ -100,13 +100,6 @@ def generate_launch_description():
             launch_arguments={'port': '/dev/ttyUSB0', 'frame_id': 'base_scan'}.items(),
         ),
 
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                [get_package_share_directory('turtlebot3_cartographer'), '/launch/cartographer.launch.py']
-            ),
-            launch_arguments={'use_sim_time': use_sim_time}.items(),
-        ),
-
         # TurtleBot3 core driver node (publishes /odom, subscribes /cmd_vel, etc.)
         Node(
             package='turtlebot3_node',
