@@ -100,6 +100,13 @@ def generate_launch_description():
             launch_arguments={'port': '/dev/ttyUSB0', 'frame_id': 'base_scan'}.items(),
         ),
 
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                [get_package_share_directory('turtlebot3_cartographer'), '/launch/cartographer.launch.py']
+            ),
+            launch_arguments={'use_sim_time': use_sim_time}.items(),
+        )
+
         # TurtleBot3 core driver node (publishes /odom, subscribes /cmd_vel, etc.)
         Node(
             package='turtlebot3_node',
@@ -111,23 +118,4 @@ def generate_launch_description():
         ############################################################################
         # REMOVED: All Nav2 or local_planner nodes. The robot is now just sensors +
         #          actuator driver, so no controller_server, dwb_local_planner, etc.
-        #
-        # Node(
-        #     package='dwb_plugins',
-        #     executable='dwb_local_planner',
-        #     ...
-        # ),
-        #
-        # Node(
-        #     package='nav2_controller',
-        #     executable='controller_server',
-        #     ...
-        # ),
-        #
-        # Node(
-        #     package='nav2_lifecycle_manager',
-        #     executable='lifecycle_manager',
-        #     ...
-        # ),
-        ############################################################################
     ])
