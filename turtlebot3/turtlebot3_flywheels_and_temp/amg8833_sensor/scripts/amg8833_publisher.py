@@ -21,8 +21,9 @@ class AMG8833DualPublisher(Node):
 
         # Initialize I2C and both AMG8833 sensors
         i2c_bus = busio.I2C(board.SCL, board.SDA)
-        self.sensor_1 = adafruit_amg88xx.AMG88XX(i2c_bus, address=0x68)  # First sensor
-        self.sensor_2 = adafruit_amg88xx.AMG88XX(i2c_bus, address=0x69)  # Second sensor
+        self.sensor_1 = adafruit_amg88xx.AMG88XX(i2c_bus)  # First sensor (0x68 by default)
+        i2c_bus.writeto(0x69, b'')  # Select the second sensor
+        self.sensor_2 = adafruit_amg88xx.AMG88XX(i2c_bus)  # Second sensor (0x69 automatically)
 
     def publish_data(self):
         # Read data from both sensors
