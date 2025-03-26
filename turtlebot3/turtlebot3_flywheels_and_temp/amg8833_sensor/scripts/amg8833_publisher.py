@@ -11,21 +11,24 @@ from std_msgs.msg import Float32MultiArray, MultiArrayLayout, MultiArrayDimensio
 class AMG8833DualPublisher(Node):
     def __init__(self):
         super().__init__('amg8833_dual_publisher')
-        
+
         # Create publishers for both sensors
         self.publisher_1 = self.create_publisher(Float32MultiArray, 'temperature_sensor_1', 10)
         self.publisher_2 = self.create_publisher(Float32MultiArray, 'temperature_sensor_2', 10)
-        
+
         # Set up publishing rate (1 Hz)
         self.timer = self.create_timer(1.0, self.publish_data)
 
-        # Initialize I2C and both AMG8833 sensors
+        # Initialize I2C bus
         i2c_bus = busio.I2C(board.SCL, board.SDA)
-        self.sensor_1 = adafruit_amg88xx.AMG88XX(i2c_bus)  # First sensor (0x68 by default)
-        i2c_bus.writeto(0x69, b'')  # Select the second sensor
-        self.sensor_2 = adafruit_amg88xx.AMG88XX(i2c_bus)  # Second sensor (0x69 automatically)
+
+        # Explicitly set I2C addresses for both sensors
+        self.sensor_1 = adafruit_amg88xx.AMG88XX(i2c_bus, addr=0x68)  # First sensor (0x68)
+        self.sensor_2 = adafruit_amg88xx.AMG88XX(i2c_bus, addr=0x69)  # Second sensor (0x69)
 
     def publish_data(self):
+        """ Reads and publishes data from both AMG8833 sensors. """
+
         # Read data from both sensors
         matrix_1 = np.array(self.sensor_1.pixels, dtype=np.float32)
         matrix_2 = np.array(self.sensor_2.pixels, dtype=np.float32)
