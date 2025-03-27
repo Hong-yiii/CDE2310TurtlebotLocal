@@ -19,6 +19,14 @@ class FlywheelSubscriber(Node):
 
     def listener_callback(self, msg):
         self.get_logger().info('I heard: "%s"' % msg.data)
+        #insert more code below
+        throttle = msg.data
+        if 1000 <= throttle <= 2000:
+            duty_cycle = (throttle / 20000) * 100
+            self.pwm.ChangeDutyCycle(duty_cycle)
+            self.get_logger().info(f'Throttle set to {throttle} µs')
+        else:
+            self.get_logger().warn('Throttle out of range (1000–2000 µs)')
 
 
 def main(args=None):
