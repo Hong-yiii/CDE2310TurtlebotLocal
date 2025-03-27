@@ -1,18 +1,13 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
-import busio
 import board
 import time
 
 class TempPublisher(Node):
     def __init__(self):
-        super().__init__('temperature_publisher')
+        super().__init__('flywheel_subscriber')
         self.publisher_ = self.create_publisher(Float32, '/temp', 10)
-
-        # Setup I2C and AMG8833
-        i2c = busio.I2C(board.SCL, board.SDA)
-        self.sensor = adafruit_amg88xx.AMG88XX(i2c)
 
         timer_period = 1.0  # Publish every 1 second
         self.timer = self.create_timer(timer_period, self.publish_temp)
