@@ -3,7 +3,6 @@ from rclpy.node import Node
 from std_msgs.msg import Float32
 import busio
 import board
-import adafruit_amg88xx
 import time
 
 class TempPublisher(Node):
