@@ -4,7 +4,7 @@ from std_msgs.msg import Float32
 import board
 import time
 
-class TempPublisher(Node):
+class FlywheelSubscriber(Node):
     def __init__(self):
         super().__init__('flywheel_subscriber')
         self.publisher_ = self.create_publisher(Float32, '/temp', 10)
@@ -26,7 +26,7 @@ class TempPublisher(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = TempPublisher()
+    node = FlywheelSubscriber()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
