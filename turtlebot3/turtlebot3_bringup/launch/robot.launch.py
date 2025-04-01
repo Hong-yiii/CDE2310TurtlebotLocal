@@ -100,6 +100,12 @@ def generate_launch_description():
             launch_arguments={'port': '/dev/ttyUSB0', 'frame_id': 'base_scan'}.items(),
         ),
 
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([
+                os.path.join(get_package_share_directory('turtlebot3_flywheels_and_temp'), 'launch', 'bringup.launch.py')
+            ]),
+        )
+
         # TurtleBot3 core driver node (publishes /odom, subscribes /cmd_vel, etc.)
         Node(
             package='turtlebot3_node',
@@ -107,11 +113,5 @@ def generate_launch_description():
             parameters=[tb3_param_dir],
             arguments=['-i', usb_port],
             output='screen'),
-
-        Node(
-            package='turtlebot3_flywheels_and_temp',
-            executable='flywheels_and_Temperature',
-            output='screen'
-        )
 
     ])

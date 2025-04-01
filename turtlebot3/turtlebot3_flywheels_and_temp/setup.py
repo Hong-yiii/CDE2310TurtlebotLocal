@@ -12,18 +12,17 @@ setup(
         ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
-        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='your_name',
-    maintainer_email='your_email@example.com',
-    description='Temperature reading using AMG8833 sensor',
+    maintainer='Your Name',
+    maintainer_email='you@example.com',
+    description='Bringup for AMG8833 and flywheels',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'amg8833_publisher = turtlebot3_flywheels_and_temp.temperature_node:main',
+            'amg8833_publisher = turtlebot3_flywheels_and_temp.amg8833_publisher:main',
         ],
     },
 )
