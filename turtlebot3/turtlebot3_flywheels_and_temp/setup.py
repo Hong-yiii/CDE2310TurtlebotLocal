@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'temperature_node = turtlebot3_flywheels_and_temp.temperature_node:main',
+            'amg8833_publisher = turtlebot3_flywheels_and_temp.temperature_node:main',
         ],
     },
 )
