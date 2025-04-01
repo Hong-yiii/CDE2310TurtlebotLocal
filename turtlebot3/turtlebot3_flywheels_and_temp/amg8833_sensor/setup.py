@@ -10,9 +10,9 @@ setup(
     packages=[package_name],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ubuntu',
-    maintainer_email='your@email.com',
-    description='AMG8833 ROS 2 Publisher',
+    maintainer='nathan',
+    maintainer_email='raamanathan2002@gmail.com',
+    description='AMG8833 thermal sensor ROS 2 publisher',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
@@ -20,5 +20,8 @@ setup(
             'amg8833_publisher = amg8833_sensor.amg8833_publisher:main'
         ],
     },
+    data_files=[
+        ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'scripts'), glob('scripts/*.py'))
+    ],
 )
-

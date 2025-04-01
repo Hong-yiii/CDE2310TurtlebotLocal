@@ -108,7 +108,15 @@ def generate_launch_description():
             arguments=['-i', usb_port],
             output='screen'),
 
-        ############################################################################
-        # REMOVED: All Nav2 or local_planner nodes. The robot is now just sensors +
-        #          actuator driver, so no controller_server, dwb_local_planner, etc.
+        Node(
+            package='turtlebot3_flywheels_and_Temperature',
+            executable='flywheels_and_Temperature',
+            output='screen'
+        ),
+        Node(
+            package='amg8833_sensor',
+            executable='amg8833_publisher',
+            name='amg8833_dual_publisher',
+            output='screen'
+        )
     ])
