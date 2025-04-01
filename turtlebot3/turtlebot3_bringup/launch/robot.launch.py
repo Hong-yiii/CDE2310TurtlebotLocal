@@ -109,6 +109,11 @@ def generate_launch_description():
             output='screen'),
 
         Node(
+            package='turtlebot3_flywheels_and_Temperature',
+            executable='flywheels_and_Temperature',
+            output='screen'
+        ),
+        Node(
             package='amg8833_sensor',
             executable='amg8833_publisher',
             name='amg8833_dual_publisher',
