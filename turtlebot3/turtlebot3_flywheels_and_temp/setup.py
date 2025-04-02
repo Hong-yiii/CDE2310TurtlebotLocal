@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 package_name = 'turtlebot3_flywheels_and_temp'
 
 setup(
     name=package_name,
     version='0.0.1',
-    packages=[package_name],
+    packages=find_packages(),  # ✅ Automatically finds your inner Python package
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
