@@ -104,7 +104,7 @@ def generate_launch_description():
             PythonLaunchDescriptionSource([
                 os.path.join(get_package_share_directory('turtlebot3_flywheels_and_temp'), 'launch', 'bringup.launch.py')
             ]),
-        )
+        ),
 
         # TurtleBot3 core driver node (publishes /odom, subscribes /cmd_vel, etc.)
         Node(
