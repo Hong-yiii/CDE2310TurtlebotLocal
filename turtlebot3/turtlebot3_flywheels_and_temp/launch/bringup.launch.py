@@ -10,11 +10,11 @@ def generate_launch_description():
             output='screen',
             name='temperature_node',
         ),
-        # Start flywheel node
-        # Node(
-        #     package='turtlebot3_flywheels_and_temp',
-        #     executable='flywheel_node',
-        #     output='screen',
-        #     name='flywheel_node',
-        # ),
+        Start flywheel node
+        Node(
+            package='turtlebot3_flywheels_and_temp',
+            executable='flywheel_node',
+            output='screen',
+            name='flywheel_node',
+        ),
     ])
